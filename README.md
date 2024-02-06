@@ -57,6 +57,8 @@ To run the main program:
 
 ## Extra credit
 
+Clearly indicate in your `Answers.md` file any extra credit attempted.
+
 - 0.5 apply `checkSimpleQueue` property to different queue capacities
 - 1 add a `clear` method, which removes all elements in the queue, to interface, impmlementation, and tests
 
