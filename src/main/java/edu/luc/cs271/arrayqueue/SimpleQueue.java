@@ -15,7 +15,7 @@ public interface SimpleQueue<E> {
    * Adds an item to the end of the queue and returns a boolean to indicate whether the attempt
    * succeded.
    *
-   * @pre The queue has capacity for at least one more item.
+   * @pre True.
    * @post The queue is nonempty and one item larger than before.
    * @param obj The object to be inserted
    * @return true if the object has been inserted, false otherwise
