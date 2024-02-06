@@ -36,7 +36,7 @@ By entering customers' names at different rates, try to create scenarios where c
    - How exhaustively does the `TestSimpleQueueJqwik` test suite test the implementation, both conceptually and in terms of actual coverage?
    - What kind of test cases does the `simpleQueueActions` method generate?
 
-# Running the code
+## Running the code
 
 To run the tests:
 
@@ -46,7 +46,7 @@ To run the main program:
 
     sbt run
 
-# Grading (total 5 points)
+## Grading (total 10 points)
 
 - 3.5 completion of items marked TODO in `FixedArrayQueue` and tests passing
 - 1 completion of `SingleQueueService` and correct behavior
@@ -55,7 +55,12 @@ To run the main program:
   - 1.5 responses to the questions above
   - 0.5 grammar, style, formatting
 
-# References
+## Extra credit
+
+- 0.5 apply `checkSimpleQueue` property to different queue capacities
+- 1 add a `clear` method, which removes all elements in the queue, to interface, impmlementation, and tests
+
+## References
 
 - [java.util.Queue interface](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Queue.html)
 - [Introduction and Array Implementation of Circular Queue](https://www.geeksforgeeks.org/introduction-and-array-implementation-of-circular-queue)
