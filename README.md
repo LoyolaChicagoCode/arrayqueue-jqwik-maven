@@ -60,6 +60,7 @@ To run the main program:
 Clearly indicate in your `Answers.md` file any extra credit attempted.
 
 - 0.5 apply `checkSimpleQueue` property to different queue capacities
+- 0.5 add observable data invariant(s) for 0 <= size <= capacity to the `checkSimpleQueue` property
 - 1 add a `clear` method, which removes all elements in the queue, to interface, impmlementation, and tests
 
 ## References
