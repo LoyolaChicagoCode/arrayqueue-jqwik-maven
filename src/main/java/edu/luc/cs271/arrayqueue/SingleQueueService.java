@@ -1,6 +1,7 @@
 package edu.luc.cs271.arrayqueue;
 
 import java.util.Scanner;
+import java.util.Set;
 
 public class SingleQueueService {
 
@@ -44,7 +45,13 @@ public class SingleQueueService {
     final var input = new Scanner(System.in);
     System.out.print("enter next customer: ");
     while (input.hasNextLine()) {
-      final var name = input.nextLine();
+      final var name = input.nextLine().trim();
+      if (name.isEmpty()) {
+        continue;
+      }
+      if (Set.of("quit", "exit").contains(name)) {
+        System.exit(0);
+      }
       var result = false;
       synchronized (lock) {
         // TODO try to add this name to the queue
