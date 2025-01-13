@@ -1,4 +1,4 @@
-package edu.luc.cs271.arrayqueue;
+package edu.luc.cs335.arrayqueue;
 
 import java.util.ArrayList;
 import java.util.List;

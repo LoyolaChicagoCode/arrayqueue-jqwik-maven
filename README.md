@@ -1,4 +1,4 @@
-# Stateful unit testing using Jqwik actions: fixed-size circular queue
+## Stateful unit testing using Jqwik actions: fixed-size circular queue
 
 In this project, we'll implement and thoroughly test our own array-based data structure, a fixed-size circular queue!
 
@@ -40,11 +40,11 @@ By entering customers' names at different rates, try to create scenarios where c
 
 To run the tests:
 
-    sbt jacoco
+    mvn verify
 
 To run the main program:
 
-    sbt run
+    mvn exec:java
 
 ## Grading (total 10 points)
 
@@ -59,6 +59,7 @@ To run the main program:
 
 Clearly indicate in your `Answers.md` file any extra credit attempted.
 
+- 0.2 add a working CI status badge for your project
 - 0.5 apply `checkSimpleQueue` property to different queue capacities
 - 0.5 add observable data invariant(s) for 0 <= size <= capacity to the `checkSimpleQueue` property
 - 1 add a `clear` method, which removes all elements in the queue, to interface, impmlementation, and tests
