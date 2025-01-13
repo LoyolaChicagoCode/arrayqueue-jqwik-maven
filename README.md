@@ -67,6 +67,6 @@ Clearly indicate in your `Answers.md` file any extra credit attempted.
 ## References
 
 - [java.util.Queue interface](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Queue.html)
-- [Introduction and Array Implementation of Circular Queue](https://www.geeksforgeeks.org/introduction-and-array-implementation-of-circular-queue)
+- [Introduction and Array Implementation of Circular Queue](https://www.programiz.com/dsa/circular-queue)
 - [Zombies testing](https://hackernoon.com/zombie-testing-one-behavior-at-a-time-9s2m3zjo)
 - [Zombies testing with circular queue/buffer example](http://blog.wingman-sw.com/tdd-guided-by-zombies)
