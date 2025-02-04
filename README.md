@@ -46,23 +46,23 @@ To run the main program:
 
     mvn exec:java
 
-## Grading (total 10 points)
+## Grading (total 6 points)
 
-- 3.5 completion of items marked TODO in `FixedArrayQueue` and tests passing
+- 2 completion of items marked TODO in `FixedArrayQueue` and existing JUnit tests passing
 - 1 completion of `SingleQueueService` and correct behavior
-- 3.5 completion of items marked TODO in `TestSimpleQueueJqwik` and working
-- 2 written part
-  - 1.5 responses to the questions above
-  - 0.5 grammar, style, formatting
+- 2 completion of items marked TODO in `TestSimpleQueueJqwik` and working
+- 1 written part
+  - 0.8 responses to the questions above
+  - 0.2 grammar, style, formatting
 
 ## Extra credit
 
 Clearly indicate in your `Answers.md` file any extra credit attempted.
 
 - 0.2 add a working CI status badge for your project
-- 0.5 apply `checkSimpleQueue` property to different queue capacities
-- 0.5 add observable data invariant(s) for 0 <= size <= capacity to the `checkSimpleQueue` property
-- 1 add a `clear` method, which removes all elements in the queue, to interface, impmlementation, and tests
+- 0.3 apply `checkSimpleQueue` property to different queue capacities
+- 0.3 add observable data invariant(s) for 0 <= size <= capacity to the `checkSimpleQueue` property
+- 0.5 add a `clear` method, which removes all elements in the queue, to interface, impmlementation, and tests
 
 ## References
 
