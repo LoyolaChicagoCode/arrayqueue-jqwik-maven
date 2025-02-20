@@ -54,6 +54,7 @@
           <configuration>
             <excludes>
               <exclude>**/*Main.*</exclude>
+              <exclude>**/SingleQueueService.*</exclude>
             </excludes>
           </configuration>
           <executions>
