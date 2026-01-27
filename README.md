@@ -40,11 +40,13 @@ By entering customers' names at different rates, try to create scenarios where c
 
 To run the tests:
 
-    mvn verify
+    ./gradlew test
 
 To run the main program:
 
-    mvn exec:java
+    ./gradlew run
+
+For more Gradle commands and migration details, see [doc/GRADLE-MIGRATION.md](doc/GRADLE-MIGRATION.md).
 
 ## Grading (total 6 points)
 
